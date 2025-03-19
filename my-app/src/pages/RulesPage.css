@@ -1,0 +1,38 @@
+/* RulesPage.css */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #2d3748;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.list {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: #a0aec0;
+}

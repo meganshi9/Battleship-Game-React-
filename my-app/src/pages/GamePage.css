@@ -1,0 +1,39 @@
+.container {
+    padding: 2rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    gap: 4px;
+  }
+  
+  .tile {
+    width: 40px;
+    height: 40px;
+    background-color: #90cdf4;
+    border: 1px solid #2c5282;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .tile:hover {
+    background-color: #63b3ed;
+  }
+  
+  .hit {
+    background-color: #48bb78;
+  }
+  
+  .miss {
+    background-color: #f56565;
+  }
+  
