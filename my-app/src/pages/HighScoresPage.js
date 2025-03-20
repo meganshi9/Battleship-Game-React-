@@ -1,4 +1,4 @@
-import styles from './HighScoresPage.css';
+import styles from './HighScoresPage.module.css';
 
 function HighScoresPage() {
   const scores = [
