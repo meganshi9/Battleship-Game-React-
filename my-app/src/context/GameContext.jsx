@@ -87,7 +87,12 @@ export function GameProvider({ children }) {
   //Initialize boards
   const initGame = () => {
     const savedState = loadState();
-    if (savedState) {
+    if (
+      savedState &&
+      !savedState.gameOver &&
+      savedState.aiBoard &&
+      savedState.aiBoard.some((row) => row.includes("S"))
+    ) {
       setPlayerBoard(savedState.playerBoard);
       setAiBoard(savedState.aiBoard);
       setCurrentTurn(savedState.currentTurn);
